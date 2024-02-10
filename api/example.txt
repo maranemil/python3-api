@@ -1,0 +1,25 @@
+INFO:root:GET request,
+Path: /api/register?email=test4@test.de&password=test
+Headers:
+Host: 0.0.0.0:8888
+User-Agent: curl/8.2.1
+Accept: */*
+
+
+
+INFO:root:POST request,
+Path: /api/login
+Headers:
+Host: 0.0.0.0:8888
+User-Agent: curl/8.2.1
+Accept: */*
+Content-Length: 43
+Content-Type: application/x-www-form-urlencoded
+
+
+
+Body:
+{"email":"test4@test.de","password":"test"}
+
+INFO:root:{"email":"test4@test.de","password":"test"}
+INFO:root:38c2802a096be9dbd41d9d9fe9ddd34373e88506e754567d9379242a19c807e7
